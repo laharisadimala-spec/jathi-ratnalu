@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cream: #FAF6EE;
+  --bg-card: #FFFDF9;
+  --border-sepia: #E2D7C5;
+  --maroon: #7F1D1D;
+  --orange: #D9532F;
+  --yellow: #E6A229;
+  --green: #2D5A3D;
+  --ink: #1C1917;
+}
+
+body {
+  background-color: var(--bg-cream);
+  color: var(--ink);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-image: 
+    radial-gradient(#d8ccb8 0.75px, transparent 0.75px), 
+    radial-gradient(#d8ccb8 0.75px, var(--bg-cream) 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Film Grain Overlay */
+.film-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+/* Tactile shadows & borders */
+.ticket-shadow {
+  box-shadow: 4px 4px 0px 0px #1C1917;
+}
+
+.ticket-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #1C1917;
+}
+
+.ticket-shadow-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ticket-shadow-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #1C1917;
+}
+
+.ticket-shadow-hover:active {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px 0px #1C1917;
+}
+
+/* Movie Ticket Perforations */
+.perforated-left {
+  position: relative;
+}
+.perforated-left::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: var(--bg-cream);
+  border-radius: 50%;
+  border: 1px solid var(--border-sepia);
+  z-index: 10;
+}
+
+.perforated-right {
+  position: relative;
+}
+.perforated-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: var(--bg-cream);
+  border-radius: 50%;
+  border: 1px solid var(--border-sepia);
+  z-index: 10;
+}
+
+/* Rubber Stamp Styling */
+.rubber-stamp {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  text-transform: uppercase;
+  font-family: 'Special Elite', monospace;
+  font-weight: 700;
+  border-radius: 3px;
+  border: 2px dashed currentColor;
+  transform: rotate(-3deg);
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+/* Washi Tape Effect */
+.washi-tape {
+  position: absolute;
+  height: 20px;
+  width: 80px;
+  background: rgba(220, 205, 175, 0.65);
+  backdrop-filter: blur(1px);
+  border-left: 2px dashed rgba(180, 160, 130, 0.4);
+  border-right: 2px dashed rgba(180, 160, 130, 0.4);
+  z-index: 20;
+}
+
+/* Film Sprocket styling */
+.film-sprocket {
+  background: repeating-linear-gradient(
+    to right,
+    #1C1917,
+    #1C1917 14px,
+    transparent 14px,
+    transparent 20px,
+    #FAF6EE 20px,
+    #FAF6EE 28px,
+    transparent 28px,
+    transparent 34px
+  );
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4ECE0;
+}
+::-webkit-scrollbar-thumb {
+  background: #CFB594;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7F1D1D;
+}
