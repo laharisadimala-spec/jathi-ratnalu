@@ -14,7 +14,7 @@ export default function HeroSection() {
           ★ {meta.hashtag} ★
         </span>
         <span className="rubber-stamp text-[10px] text-[#2D5A3D] border-[#2D5A3D]">
-          STANLEY B.TECH TRIO
+          STANLEY BTECH
         </span>
       </div>
 
@@ -30,9 +30,9 @@ export default function HeroSection() {
           {hero.englishTitle}
         </h2>
 
-        {/* Subtitle: B.Tech. Lazy. Fun. We just need each other. */}
+        {/* Subtitle: We just need each other. */}
         <p className="font-handwriting text-2xl sm:text-3xl text-[#57534E] pt-2">
-          "B.Tech. Lazy. Fun. We just need each other."
+          "We just need each other."
         </p>
       </div>
 
@@ -52,7 +52,7 @@ export default function HeroSection() {
         </div>
 
         <div className="absolute -bottom-4 left-4 sm:left-8 z-20 bg-[#FAF6EE] text-[#1C1917] border border-[#1C1917] px-3 py-1 rounded-sm shadow-md font-handwriting text-base sm:text-lg -rotate-2 pointer-events-none">
-          "Plans optional • Friendship mandatory" 💛
+          telidhu gurtu ledhu marchipoya
         </div>
 
         {/* Polaroid / Friendship Movie Poster Frame */}
@@ -102,9 +102,11 @@ export default function HeroSection() {
           <ArrowRight className="w-4 h-4 text-[#E6A229] group-hover:translate-x-1 transition-transform" />
         </a>
 
-        <p className="text-xs font-mono text-[#78716C] text-center">
-          {meta.instagram.subtext}
-        </p>
+        {meta.instagram.subtext ? (
+          <p className="text-xs font-mono text-[#78716C] text-center">
+            {meta.instagram.subtext}
+          </p>
+        ) : null}
       </div>
 
       {/* Minimal Personality Tags */}

@@ -13,9 +13,6 @@ export default function CastSection() {
         <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-[#1C1917] tracking-wider leading-[0.95]">
           THE MAIN CHARACTERS
         </h2>
-        <p className="mt-2 text-sm sm:text-base text-[#57534E] font-sans">
-          Lahari, Vedha and Keerthi. Three distinct personalities with one shared wavelength.
-        </p>
       </div>
 
       {/* Grid of the 3 Friends */}
