@@ -30,16 +30,9 @@ export default function InstagramCtaSection() {
         {/* Big Impact Copy */}
         <div className="max-w-xl mx-auto space-y-4">
           <h3 className="font-display text-3xl xs:text-4xl sm:text-5xl lg:text-6xl text-[#1C1917] tracking-wider leading-[1.05]">
-            chalu iga<br />
-            insta scroll chesuko inka
-            <span className="text-[#7F1D1D] block mt-4">
-              inka em undi poyi reels chudandi
-            </span>
+            Anthe iga<br />
+            insta scroll chesuko
           </h3>
-
-          <p className="font-handwriting text-2xl sm:text-3xl text-[#57534E] pt-2">
-            "You've seen enough. Now find us where the actual nonsense happens."
-          </p>
 
           {/* High-Impact CTA Button */}
           <div className="pt-4 flex justify-center">

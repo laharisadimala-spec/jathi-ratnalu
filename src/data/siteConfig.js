@@ -22,7 +22,7 @@ export const siteConfig = {
       handle: "@professionallylostt",
       url: "https://www.instagram.com/professionallylostt/",
       buttonLabel: "OPEN OUR INSTAGRAM ↗",
-      subtext: "You've seen enough. Now find us where the actual nonsense happens.",
+      subtext: "",
     },
   },
 
@@ -60,14 +60,13 @@ export const siteConfig = {
   hero: {
     teluguTitle: "జాతి రత్నాలు",
     englishTitle: "JATHI RATNALU",
-    subline: "B.Tech. Lazy. Fun. We just need each other.",
+    subline: "We just need each other.",
     notes: [
       { text: "B.Tech survivors", rotate: "-rotate-3", pos: "top-2 -left-4 sm:-left-8" },
       { text: "Professional procrastinators", rotate: "rotate-2", pos: "top-8 -right-3 sm:-right-8" },
       { text: "Cinema enthusiasts", rotate: "-rotate-1", pos: "-top-3 left-1/3" },
       { text: "We just need each other", rotate: "rotate-1", pos: "top-14 -left-3 sm:-left-6" },
-      { text: "Plans optional", rotate: "-rotate-2", pos: "-bottom-4 left-4 sm:left-8" },
-      { text: "Friendship mandatory", rotate: "rotate-3", pos: "-bottom-5 right-2 sm:right-6" },
+      { text: "telidhu gurtu ledhu marchipoya", rotate: "-rotate-2", pos: "-bottom-4 left-4 sm:left-8" },
       { text: "Three Rathnalu", rotate: "-rotate-3", pos: "bottom-12 -right-4 sm:-right-8" }
     ],
     tags: [
@@ -123,7 +122,7 @@ export const siteConfig = {
     title: "JATHI RATNALU",
     year: "2021",
     teluguTitle: "జాతి రత్నాలు",
-    dialogue: "Paruvu em chesukuntaaru, sir?\nParuvu tho oka 10th class donga certificate kaina konnagalara?",
+    dialogue: "em petalo telidhu le naku",
     handwrittenNote: "Cinema chusthe cinema thoughts vastayi.",
     image: "/images/jathi-ratnalu.jpg",
     placeholderKey: "JATHI_RATNALU_IMAGE",
@@ -145,24 +144,21 @@ export const siteConfig = {
         name: "LAHARI",
         image: "/images/friend-1.jpg",
         placeholderKey: "FRIEND_1_IMAGE",
-        objectPosition: "center 45%",
-        note: "Origin 1"
+        objectPosition: "center 45%"
       },
       {
         id: "f-2",
         name: "VEDHA",
         image: "/images/friend-2.jpg",
         placeholderKey: "FRIEND_2_IMAGE",
-        objectPosition: "center 28%",
-        note: "Origin 2"
+        objectPosition: "center 28%"
       },
       {
         id: "f-3",
         name: "KEERTHI",
         image: "/images/friend-3.jpg",
         placeholderKey: "FRIEND_3_IMAGE",
-        objectPosition: "center 35%",
-        note: "Origin 3"
+        objectPosition: "center 35%"
       }
     ],
     destination: {
@@ -234,7 +230,7 @@ export const siteConfig = {
         { sender: "Vedha", text: "Nuvvu Mallikarjun Reddy ra." },
         { sender: "Keerthi", text: "Na valla problem ayte nenu vellipotha." }
       ],
-      annotation: "Trio debate summary"
+      annotation: "Debate summary"
     },
     {
       id: "say-6",

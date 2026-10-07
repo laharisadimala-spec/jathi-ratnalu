@@ -7,7 +7,6 @@ export default function FilmStrip({ reverse = false, className = "" }) {
     "THE THREE RATHNALU",
     "STANLEY COLLEGE OF ENGINEERING",
     "B.TECH SURVIVORS • PROFESSIONAL PROCRASTINATORS",
-    "PLANS OPTIONAL • FRIENDSHIP MANDATORY",
     "WE JUST NEED EACH OTHER",
     "#TheThreeRathnalu",
     "LIFE ANEDI ZINDAGI AIPOYINDI",

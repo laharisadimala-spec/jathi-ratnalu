@@ -64,9 +64,6 @@ export default function Navbar() {
                 <span className="font-serif text-xl sm:text-2xl font-black text-[#1C1917] tracking-normal leading-none group-hover:text-[#7F1D1D] transition-colors">
                   {siteConfig.meta.teluguTitle}
                 </span>
-                <span className="text-[9px] font-mono font-bold bg-[#E6A229]/20 text-[#854D0E] px-1.5 py-0.2 rounded border border-[#E6A229]/40">
-                  TRIO
-                </span>
               </div>
               <span className="text-[10px] font-display text-[#7F1D1D] tracking-widest uppercase leading-tight mt-0.5">
                 {siteConfig.meta.englishTitle} • LAHARI • VEDHA • KEERTHI

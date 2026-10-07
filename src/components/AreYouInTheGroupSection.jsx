@@ -26,7 +26,7 @@ export default function AreYouInTheGroupSection() {
         {/* Top Tag */}
         <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#E6A229]/20 text-[#854D0E] font-mono text-xs font-bold uppercase rounded-sm border border-[#E6A229]/40 mb-3">
           <Key className="w-3.5 h-3.5 text-[#D9532F]" />
-          <span>TRIO ACCESS VERIFICATION</span>
+          <span>ACCESS VERIFICATION</span>
         </div>
 
         {/* Heading & Subtext */}

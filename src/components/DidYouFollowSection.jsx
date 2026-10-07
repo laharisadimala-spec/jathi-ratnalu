@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Instagram, ArrowRight, HeartHandshake } from 'lucide-react';
+import { Instagram, ArrowRight } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { siteConfig } from '../data/siteConfig';
 
@@ -20,12 +20,6 @@ export default function DidYouFollowSection() {
   return (
     <section className="py-12 sm:py-16 px-4 sm:px-6 max-w-2xl mx-auto text-center">
       <div className="p-6 sm:p-10 bg-[#FFFDF9] border-2 border-[#1C1917] rounded-sm shadow-[6px_6px_0px_0px_#1C1917]">
-        {/* Top Tag */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#E6A229]/20 text-[#854D0E] font-mono text-xs font-bold uppercase rounded-sm border border-[#E6A229]/40 mb-3">
-          <HeartHandshake className="w-3.5 h-3.5 text-[#D9532F]" />
-          <span>TRIO ROLL CALL</span>
-        </div>
-
         {/* Heading & Subtext */}
         <h3 className="font-display text-4xl sm:text-5xl text-[#1C1917] tracking-wider">
           {didYouFollow.heading}

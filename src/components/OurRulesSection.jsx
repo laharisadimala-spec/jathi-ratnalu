@@ -39,13 +39,10 @@ export default function OurRulesSection() {
           ))}
         </ol>
 
-        {/* Rubber Stamp at the Bottom */}
+        {/* Bottom Note */}
         <div className="mt-8 pt-4 border-t border-dashed border-[#D8CBB6] flex items-center justify-between">
           <span className="font-mono text-[10px] text-[#78716C]">
-            TRIO RULEBOOK #08
-          </span>
-          <span className="rubber-stamp text-[9px] text-[#7F1D1D] border-[#7F1D1D]">
-            FRIENDSHIP FOREVER
+            RULEBOOK #08
           </span>
         </div>
       </div>
