@@ -122,8 +122,9 @@ export const siteConfig = {
     title: "JATHI RATNALU",
     year: "2021",
     teluguTitle: "జాతి రత్నాలు",
-    dialogue: "em petalo telidhu le naku",
-    handwrittenNote: "Cinema chusthe cinema thoughts vastayi.",
+    dialogue: `Paruvu aa emi cheeskuntaaru saar Paruvu tooni
+Okka 10th class Donga Certificate aynaa konagalaraa`,
+    handwrittenNote: "Aa job cheyyoddu ee job cheyyoddu Anna narrow mind em ledu Maava",
     image: "/images/jathi-ratnalu.jpg",
     placeholderKey: "JATHI_RATNALU_IMAGE",
     objectPosition: "center",
