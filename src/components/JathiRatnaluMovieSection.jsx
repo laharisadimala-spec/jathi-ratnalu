@@ -79,11 +79,11 @@ export default function JathiRatnaluMovieSection() {
             {/* Dramatic Dialogue Box */}
             <div className="p-4 bg-[#FAF6EE] border-l-4 border-[#7F1D1D] border-y border-r border-[#E2D7C5] rounded-r-xs shadow-xs relative">
               <Quote className="w-5 h-5 text-[#E6A229] mb-1 opacity-70" />
-              <p className="font-typewriter text-sm sm:text-base text-[#1C1917] leading-relaxed italic">
+              <p className="font-typewriter text-sm sm:text-base text-[#1C1917] leading-relaxed italic whitespace-pre-line">
                 "{jathiRatnalu.dialogue}"
               </p>
               <span className="block font-mono text-[10px] text-[#78716C] mt-2 text-right">
-                — Jogipet Supreme Court
+                Naveen polishetty
               </span>
             </div>
 
