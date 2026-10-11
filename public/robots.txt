@@ -1,0 +1,6 @@
+# robots.txt for Jathi Ratnalu
+User-agent: *
+Allow: /
+
+# Security Disclosure Policy
+# RFC 9116: https://jathiratnalu2v.vercel.app/.well-known/security.txt
